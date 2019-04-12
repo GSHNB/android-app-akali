@@ -31,9 +31,6 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    object acManager{
-
-    }
 
     interface IUser{
         fun copp(name: String, age: Int): String
